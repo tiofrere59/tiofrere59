@@ -17,8 +17,8 @@ from stem import Signal
 import telebot
 
 # Configuration du bot Telegram pour recevoir des notifications
-TELEGRAM_BOT_TOKEN = "8054927329:AAFDcwA-REasSRwb_6sMIb0FSU"
-TELEGRAM_CHAT_ID = "5394117357"
+TELEGRAM_BOT_TOKEN = ""
+TELEGRAM_CHAT_ID = ""
 bot = telebot.TeleBot(TELEGRAM_BOT_TOKEN)
 
 # Initialisation de la base de données pour stocker les annonces
